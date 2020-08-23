@@ -1,0 +1,187 @@
+/***********************HEADER ELEMENTS**********************/
+.header-shape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.5rem;
+    padding: 0 7rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.18);
+    background-color: var(--white);
+}
+
+.album-list-title {
+    color: var(--blackish);
+}
+
+.search-container {
+    width: 25rem;
+    height: 2rem;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    background-color: var(--white);
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.search-form input {
+    height: 100%;
+    width: 100%;
+    padding-left: 15px;
+    background-color: transparent;
+    color: var(--blackish);
+    border: none;
+}
+
+.search-form input {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.51px;
+    color: var(--warm-grey);
+}
+
+.search-form input:focus {
+    outline: none;
+}
+
+.search-form input::placeholder {
+    color: var(--warm-grey);
+}
+
+.search-form button {
+    height: 80%;
+    width: 12%;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    color: var(--warm-grey);
+    border: none;
+}
+
+.title-font {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.88px;
+    color: var(--blackish);
+}
+
+/***********************BODY ELEMENTS**********************/
+
+.albums-table {
+    padding: 0 7rem;
+
+}
+
+.albums-table .albums-list {
+    list-style-type: none;
+}
+
+.albums-table .albums-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px 0 #e7e7e7;
+    background-color: var(--white);
+}
+
+.albums-table .albums-list li .image-div {
+    padding: 0.5rem 1rem;
+    width: 5%;
+    border-radius: 4px;
+}
+
+.albums-table .albums-list li .image-div img {
+    width: 3.375rem;
+    height: 3.375rem;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.albums-table .albums-list li .names-div {
+    padding: 0.5rem 1rem;
+    width: 35%;
+}
+
+.albums-table .albums-list li .other-info-div {
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.button-favorite-add {
+    width: 8rem;
+    height: 1.5rem;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--aqua);
+    color: var(--white);
+    font-weight: bold;
+}
+
+.button-favorite-remove {
+    width: 8rem;
+    height: 1.5rem;
+    border: 1px solid var(--aqua);
+    border-radius: 3px;
+    background-color: var(--white);
+    color: var(--aqua);
+}
+
+.song-title-font {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: -0.66px;
+    color: var(--blackish);
+    text-transform: capitalize;
+}
+
+.artist-name-font {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.75rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.44px;
+    color: var(--warm-grey);
+}
+
+.year-price-font {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.51px;
+    color: var(--blackish);
+}
+
+.button-font {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.6rem;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}

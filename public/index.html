@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" href="designs/index.css">
+      <link rel="stylesheet" type="text/css" href="designs/app.css">
+      <title>Albums</title>
+</head>
+
+<body>
+<header class="header-shape">
+      <h1 id="header-title" class="album-list-title title-font">Album list</h1>
+
+      <div class="search-container">
+            <form onkeyup="filtering()" action="javascript:filtering()" class="search-form">
+                  <input id="input" type="text" placeholder="Search" name="search">
+                  <button type="submit"><img src="icons/shape.png"></button>
+            </form>
+      </div>
+</header>
+
+<div class="albums-table">
+      <ul id="albums-list" class="albums-list"></ul>
+</div>
+
+<script src="helper/createContent.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>
+

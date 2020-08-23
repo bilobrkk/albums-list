@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+:root {
+    --aqua: #13d6ea;
+    --muted-white: #f9f9f9;
+    --blackish: #363636;
+    --pinkish-grey: #cfcfcf;
+    --turquoise-blue: #00accf;
+    --warm-grey: #828282;
+    --muted-black: #282828;
+    --greyish: #a6a6a6;
+    --greyish-brown: #545454;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--muted-white);
+}
+
+@font-face {
+    font-family: Work Sans;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
